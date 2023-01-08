@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/playid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        android:layout_gravity="center"
+        android:layout_marginTop="19dp"
+        />
+
+    <Button
+        android:id="@+id/pauseid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAUSE"
+        android:layout_gravity="center"
+        android:layout_marginTop="9dp"
+        />
+    <Button
+        android:id="@+id/stopid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:layout_gravity="center"
+        android:layout_marginTop="9dp"
+        />
+
+
+    <Button
+        android:id="@+id/deleteid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_gravity="center"
+        android:layout_marginTop="9dp"
+        />
+
+    <ImageButton
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/play_arrow"
+        android:scaleType="fitCenter"
+        android:padding="50dp"
+        />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hasan"
+        android:textSize="20sp"
+        android:textColor="#1A26C7"
+        />
+
+    <ToggleButton
+        android:id="@+id/toggleBtn"
+        android:textOff="Wifi off"
+        android:textOn="Wifi on"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/x_valueid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:background="#FFAE37"
+        android:ems="10"
+        android:hint="x-value"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        />
+
+    <EditText
+        android:id="@+id/y_valueid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/x_value"
+        android:layout_alignStart="@+id/x_value"
+        android:layout_below="@+id/x_value"
+        android:layout_marginTop="33dp"
+        android:background="#FFAE37"
+        android:ems="10"
+        android:hint="y-value"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        />
+    <Button
+        android:id="@+id/btnid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
